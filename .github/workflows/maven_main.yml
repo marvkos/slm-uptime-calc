@@ -27,7 +27,7 @@ jobs:
 
       - run: mkdir download && cp target/*.jar download
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Build
           path: download
